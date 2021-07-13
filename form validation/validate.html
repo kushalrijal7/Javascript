@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form">
+        <h1><u>Form</u></h1>
+        <form action="validate.html" method="GET" onSubmit="return validateform(this)">
+            First Name: <br>
+            <input type="text" placeholder="First Name" name="fname" maxlength="20"><br>Surname:<br>
+
+            <input type="text" placeholder="Surname" name="sname" maxlength="20"> <br>Username:
+
+            <br><input type="text" placeholder="Username" name="username" maxlength="20"><br> Age:
+
+            <br><input type="number" placeholder="Age" name="age"><br> Email:
+
+            <br><input type="email" placeholder="Email" name="email"> <br> Password:
+
+            <br><input type="password" placeholder="Password" name="password"><br>Gender:<br>
+            <input type="radio" id="Male" name="fav_language" value="male" onclick="validateGender()">
+              <label for="male">Male</label>
+            <input type="radio" id="Female" name="fav_language" value="female">
+              <label for="female">Female</label>
+            <input type="radio" id="Others" name="fav_language" value="others">
+              <label for="others">Others</label><br>
+            <input type="checkbox" id="check" name="check" value="check">
+            <label for="coditions"> I accept the terms & conditons</label>
+            <br><input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <script type="text/javascript" src="./form.js"></script>
+</body>
+
+</html>

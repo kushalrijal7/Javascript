@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:palevioletred;
+}
+.form{
+    text-align: center;
+    border: 4px solid ;
+    border-left: 4px solid blue ;
+    border-bottom: 4px solid red ;
+    box-sizing: border-box;
+    width: 400px;
+    height: 371px;
+    margin-left: 550px;
+    margin-top: 200px;
+}
+/* for mobile */
+@media only screen and (max-width: 600px){  
+    body {
+      background-color: lightblue;
+    }
+    .form{
+        text-align: center;
+        border: 4px solid ;
+        border-left: 4px solid blue ;
+        border-bottom: 4px solid red ;
+        box-sizing: border-box;
+        width: 350px;
+        height: 370px;
+        margin-left: 60px;
+        margin-top: 100px;
+    }
+  }
+  /* For Tablet */
+  /* @media only screen and (max-width: 850px){
+      body{
+          background-color: brown;
+      }
+      .form{
+        text-align: center;
+        border: 4px solid ;
+        border-left: 4px solid blue ;
+        border-bottom: 4px solid red ;
+        box-sizing: border-box;
+        width: 350px;
+        height: 311px;
+        margin-left: 240px;
+        margin-top: 180px;
+    }
+  } */
+  
